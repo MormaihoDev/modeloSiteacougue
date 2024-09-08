@@ -1,0 +1,109 @@
+header {
+    background-image: url("./image/boiBackground.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+    background-position-y: -20%;
+}
+
+.navbar {
+    background-color: #b42303;
+}
+
+nav a {
+    position: relative;
+    top: 140%;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #b42303;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand
+, .navbar-brand:hover, .navbar h1, .nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-toggler {
+    background-color:#ffeae6;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color:#ffeae6;
+}
+
+.text-colored {
+    color: #b42303;
+}
+
+.nav-cardapio .nav-link.active, #fale-conosco button {
+    background-color: #b42303;
+    color: #ffeae6;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #b42303;
+}
+
+.carousel-inner img {
+    height: 800px;
+}
+
+.col-md-5 img {
+    height: 500px;
+}
+
+.tab-pane img {
+    height: 200px;
+}
+
+.navbar-nav .nav-link.active {
+    color: red;
+}
+
+.nav button:hover {
+    color: red;
+}
+
+.social-links li, ul li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.mb-3 textarea {
+    resize: none;
+}
+
+#redes {
+    margin-top: 240px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+    #redes {
+        margin-top: 10px;
+    }
+}
